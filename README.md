@@ -23,5 +23,5 @@ int value = 78;
 
 Эту таблицу можно расшифровать так:
 - Метод FindIndexBinary выполняется на ~40ns быстрее, чем метод FindIndexLinear
-- Число отклонения оценки у метода FindIndexBinary равено 0.0196 ns (погрешность)
+- Число отклонения оценки у метода FindIndexBinary равено 0.0163 ns (погрешность)
 - Т.к метод FindIndexLinear является Baseline = true, то относительно этого метода метод FindIndexBinary лучше на 8%
